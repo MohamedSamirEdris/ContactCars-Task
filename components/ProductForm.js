@@ -79,7 +79,7 @@ export default function ProductForm({
               value={formik.values.image}
             />
           </div>
-          <button type="submit" className="primary-button w-full" >
+          <button type="submit" className="bg-blue-500 w-full" >
             Submit
           </button>
         </form>

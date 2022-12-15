@@ -33,7 +33,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">
           <div>
-            <span> Filter by </span>
+            <span> Filter by Category :</span>
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
               onClick={() => route.push('?category=shirt')}
@@ -51,6 +51,21 @@ export default function Layout({ title, children }) {
               onClick={() => route.push('?category=jackets')}
             >
               Jackets
+            </button>
+          </div>
+          <div>
+            <span> Filter by Price :</span>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
+              onClick={() => route.push('?_sort=price')}
+            >
+              Low to high
+            </button>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
+              onClick={() => route.push('?_sort=price&_order=desc')}
+            >
+              High to low
             </button>
           </div>
           {children}

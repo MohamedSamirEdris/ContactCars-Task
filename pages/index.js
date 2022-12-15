@@ -14,9 +14,10 @@ export default function Home({ products }) {
 }
 
 export async function getServerSideProps({ query }) {
-  const { category } = query;
+  const { category , price} = query;
   let url = 'http://localhost:8000/products';
   category ? (url += `?category=${category}`) : null;
+  price ? (url += `?_sort=${price}`) : null ;
 
   const res = await fetch(url);
   const data = await res.json();
