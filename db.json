@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "name": "shirt 1",
+      "id": 1,
+      "slug": "shirt1",
+      "category": "shirt",
+      "image": "/images/shirt1.webp",
+      "price": 50,
+      "decs": "Shirt one desc "
+    },
+    {
+      "name": "Shirt 2",
+      "slug": "shirt2",
+      "category": "shirt",
+      "image": "/images/shirt2.jpg",
+      "price": 70,
+      "decs": "Shirt two desc "
+    },
+    {
+      "name": "Shirt 3",
+      "slug": "shirt3",
+      "category": "shirt",
+      "image": "/images/shirt3.webp",
+      "price": 90,
+      "decs": "Shirt one desc "
+    },
+    {
+      "name": "Pants 1",
+      "slug": "pants",
+      "category": "pants",
+      "image": "/images/pants1.webp",
+      "price": 60,
+      "decs": "Pants one desc "
+    },
+    {
+      "name": "Pants 2",
+      "slug": "pants2",
+      "category": "pants",
+      "image": "/images/pants2.jpeg",
+      "price": 75,
+      "decs": "Pants two desc "
+    },
+    {
+      "name": "Pants 3",
+      "slug": "pants3",
+      "category": "pants",
+      "image": "/images/pants3.webp",
+      "price": 100,
+      "decs": "Pants three desc "
+    },
+    {
+      "name": "Jacket 1",
+      "slug": "jacket1",
+      "category": "jackets",
+      "image": "/images/jacket1.webp",
+      "price": 200,
+      "decs": "Jacket one desc "
+    },
+    {
+      "name": "Jacket 2",
+      "slug": "Jacket2",
+      "category": "jackets",
+      "image": "/images/jacket2.jpeg",
+      "price": 400,
+      "decs": "Jacket two desc "
+    },
+    {
+      "name": "Jacket 3",
+      "slug": "Jacket3",
+      "category": "jackets",
+      "image": "/images/jacket3.webp",
+      "price": 600,
+      "decs": "Jacket three desc "
+    },
+    {
+      "name": "",
+      "category": "",
+      "price": 0,
+      "desc": "",
+      "slug": "K62Ztx5"
+    },
+    {
+      "name": "mohamed",
+      "category": "dsadas",
+      "price": 25,
+      "desc": "dasdas",
+      "slug": "CX7fvUQ"
+    },
+    {
+      "name": "jhghljl",
+      "category": "",
+      "price": 0,
+      "desc": "",
+      "slug": "Gd8wpxE"
+    },
+    {
+      "name": "ahmed samir",
+      "category": "male",
+      "price": 24,
+      "desc": "Helpful",
+      "slug": "RhIQ3oh"
+    },
+    {
+      "name": "Yahia",
+      "category": "",
+      "price": 0,
+      "desc": "",
+      "slug": "yk9EC-o"
+    }
+  ]
+}
