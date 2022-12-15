@@ -1,13 +1,12 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
+import axios from 'axios';
+
 
 export default function ProductItem({ product, title }) {
-
-  const handleDelte = () => {
-    
-  }
+ 
   return (
     <>
       <Head>
@@ -38,7 +37,11 @@ export default function ProductItem({ product, title }) {
                 Edit
               </button>
             </Link>
-            <button className="primary-button" type="button" onClick={() => handleDelete()}>
+            <button
+              className="primary-button"
+              type="button"
+              onClick={() => handleDelete()}
+            >
               Delete
             </button>
             <button className="primary-button m-4" type="button">

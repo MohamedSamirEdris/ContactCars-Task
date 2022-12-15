@@ -3,7 +3,6 @@ import ProductForm from '../../../components/ProductForm';
 import Link from 'next/link';
 
 export default function edit({ product }) {
-  console.log("🚀 ~ file: edit.js:6 ~ edit ~ product", product)
   
   return (
     <>
