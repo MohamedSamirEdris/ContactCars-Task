@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 export default function Layout({ title, children }) {
-  const route = useRouter()
+  const route = useRouter();
   return (
     <>
       <Head>
@@ -16,7 +16,7 @@ export default function Layout({ title, children }) {
       <div className="flex min-h-screen flex-col justify-between ">
         <header>
           <nav className="flex h-12 items-center px-4 justify-between shadow-md">
-            <Link href="/">mohamed samir </Link>
+            <Link href="/">ContactCars</Link>
             <Link href="/product/add" className="p-2">
               Add Product
             </Link>
@@ -34,9 +34,24 @@ export default function Layout({ title, children }) {
         <main className="container m-auto mt-4 px-4">
           <div>
             <span> Filter by </span>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2' onClick={()=> route.push("?category=shirt")}>Shirts</button>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2' onClick={()=> route.push("?category=pants")}>Pants</button>
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2' onClick={()=> route.push("?category=jackets")}>Jackets</button>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
+              onClick={() => route.push('?category=shirt')}
+            >
+              Shirts
+            </button>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
+              onClick={() => route.push('?category=pants')}
+            >
+              Pants
+            </button>
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
+              onClick={() => route.push('?category=jackets')}
+            >
+              Jackets
+            </button>
           </div>
           {children}
         </main>
@@ -47,4 +62,3 @@ export default function Layout({ title, children }) {
     </>
   );
 }
-
