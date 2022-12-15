@@ -5,7 +5,7 @@
       "id": 1,
       "slug": "shirt1",
       "category": "shirt",
-      "image": "/images/shirt1.webp",
+      "image": "/images/shirt1.jpg",
       "price": 50,
       "decs": "Shirt one desc "
     },
@@ -21,7 +21,7 @@
       "name": "Shirt 3",
       "slug": "shirt3",
       "category": "shirt",
-      "image": "/images/shirt3.webp",
+      "image": "/images/shirt3.jpg",
       "price": 90,
       "decs": "Shirt one desc "
     },
@@ -29,7 +29,7 @@
       "name": "Pants 1",
       "slug": "pants",
       "category": "pants",
-      "image": "/images/pants1.webp",
+      "image": "/images/pants1.jpg",
       "price": 60,
       "decs": "Pants one desc "
     },
@@ -37,7 +37,7 @@
       "name": "Pants 2",
       "slug": "pants2",
       "category": "pants",
-      "image": "/images/pants2.jpeg",
+      "image": "/images/pants2.jpg",
       "price": 75,
       "decs": "Pants two desc "
     },
@@ -45,7 +45,7 @@
       "name": "Pants 3",
       "slug": "pants3",
       "category": "pants",
-      "image": "/images/pants3.webp",
+      "image": "/images/pants3.jpg",
       "price": 100,
       "decs": "Pants three desc "
     },

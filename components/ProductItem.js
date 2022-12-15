@@ -5,7 +5,7 @@ import Head from 'next/head';
 import axios from 'axios';
 
 
-export default function ProductItem({ product, title }) {
+export default function ProductItem({ product, title,addToCard }) {
   return (
     <>
       <Head>
@@ -19,7 +19,7 @@ export default function ProductItem({ product, title }) {
           <Image
             src={product.image}
             alt={product.name}
-            className="rounded "
+            className="rounded w-full"
             width={200}
             height={200}
             priority
@@ -43,7 +43,7 @@ export default function ProductItem({ product, title }) {
             >
               Delete
             </button>
-            <button className="primary-button m-4" type="button">
+            <button className="primary-button m-4" type="button" onClick={() => addToCard(product)} >
               Add to cart
             </button>
           </div>
